@@ -9,7 +9,7 @@ function compute()
     //Validation
     if (principal<=0){
         alert("Enter a positive number");
-        documnet.getElementById("principal").focus();
+        document.getElementById("principal").focus();
         return false;
     }
     document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+interest+",\<br\>in the year "+year.toString()+"\<br\>";
